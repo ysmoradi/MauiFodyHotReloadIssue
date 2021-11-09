@@ -21,12 +21,6 @@ namespace MauiFodyHotReloadIssue
 
         public ICommand IncreaseCounter { get; set; }
 
-        private int _Counter;
-
-        public int Counter
-        {
-            get => _Counter;
-            set => SetProperty(ref _Counter, value);
-        }
+        public int Counter { get; set; }
     }
 }
